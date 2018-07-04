@@ -29,7 +29,92 @@ Debe tener una estrategia de copia de seguridad para aminorar la pérdida de dat
 - Desastres naturales, como incendios, inundaciones y terremotos.\\
 - Robo.\\
 
-Si utiliza una estrategia de copia de seguridad adecuada, puede restaurar los datos con un costo mínimo sobre la producción y reducir la posibilidad de que los datos se pierdan definitivamente. Piense en la estrategia de copia de seguridad como un seguro. Su estrategia de copia de seguridad debe devolver el sistema al punto en el que se encontraba antes del problema. Al igual que con una 
+Si utiliza una estrategia de copia de seguridad adecuada, puede restaurar los datos con un costo mínimo sobre la producción y reducir la posibilidad de que los datos se pierdan definitivamente. Piense en la estrategia de copia de seguridad como un seguro. Su estrategia de copia de seguridad debe devolver el sistema al punto en el que se encontraba antes del problema. Al igual que con una póliza de seguros, pregúntese: “¿cuánto estoy dispuesto a pagar y cuántas pérdidas puedo permitirme?”.
+\\
+\\Los costos asociados con la estrategia de copia de seguridad incluyen la cantidad de tiempo que se emplea en diseñar, implementar, automatizar y probar los procedimientos de copia de seguridad. Aunque la pérdida de datos no se puede impedir completamente, debe diseñar una estrategia de copia de seguridad para reducir el alcance de los daños. Cuando diseñe una estrategia de copia de seguridad, considere la cantidad de tiempo que se puede permitir que el sistema esté parado, así como la cantidad de datos que se puede admitir perder (si puede perderse alguno) en el caso de un error del sistema.
+\\
+b) Hacer copias de seguridad con regularidad
+La frecuencia con que haga las copias de seguridad de la base de datos depende de la cantidad de datos que esté dispuesto a perder y la actividad de la base de datos. Cuando haga copias de seguridad de bases de datos de usuario, tenga en cuenta los siguientes hechos e instrucciones:
+\\
+\\- Puede hacer copias de seguridad de la base de datos con frecuencia si el sistema se encuentra en un entorno de proceso de transacciones en línea (OLTP, Online Transaction Processing).
+\\-	Puede hacer copias de seguridad de la base de datos con menos frecuencia si el sistema tiene poca actividad o se utiliza, principalmente, para la toma de decisiones.
+\\-	Debe programar las copias de seguridad cuando no se estén efectuando muchas actualizaciones en SQL Server.
+\\-	Tras determinar la estrategia de realización de copias de seguridad, puede automatizar el proceso con el Asistente para planes de mantenimiento de bases de datos.
+\\2.3 Tipos de Respaldo que Soporta Oracle
+\\-	Completo.- Se respalda toda la base de datos.
+\\-	Incremental.- Debe tener previamente un respaldo completo. Respalda a medida que se realizan cambios.
+\\-	Diferencial.- Debe tener previamente un respaldo completo. Respalda las diferencias existentes entre un respaldo y otro.
+\\-	Flashbacks.- Permite de manera rápida volver a un estado anterior de la base de datos.
+\\
+\\a). Respaldo y Recuperación
+\\Para determinar cuándo hacer un respaldo, pensar de la siguiente manera: hacer una copia de respaldo justo antes del momento en que regenerar los datos ocasione mayor esfuerzo que hacer el respaldo.
+El respaldo y recuperación de datos es la generación de una copia, en un momento determinado, de los datos del sistema, con vistas a su eventual reposición en caso de pérdida
+\\
+\\El respaldo y recuperación de información, trata del esfuerzo necesario para asegurar la continuidad del procesamiento de los datos de las base de datos, con la mínima dificultad posible ante una eventual alteración no deseada de los mismos.
+\\
+\\b). Respaldos
+Respaldo es la obtención de una copia de los datos en otro medio magnético, de tal modo que a partir de dicha copia es posible restaurar el sistema al momento de haber realizado el respaldo. Por lo tanto, los respaldos deben hacerse con regularidad, con la frecuencia preestablecida y de la manera indicada, a efectos de hacerlos correctamente.
+\\
+Es fundamental hacer bien los respaldos. De nada sirven respaldos mal hechos (por ejemplo, incompletos). En realidad, es peor disponer de respaldos no confiables que carecer totalmente de ellos. Suele ocurrir que la realización de respaldos es una tarea relegada a un plano secundario, cuando en realidad la continuidad de una aplicación depende de los mismos. Los respaldos son tan importantes como lo es el correcto ingreso de datos.
+\\
+\\b.1). Procedimiento de Respaldo y Recuperación
+\\Dado que las aplicaciones (sistemas) tienen características inherentes, para cada aplicación
+Corresponde un método apropiado de respaldo y recuperación de datos. Preferentemente, debe ser establecido por quienes desarrollan la aplicación, que son los que saben cuáles datos es necesario respaldar, la mejor manera de hacerlo, etc. y cómo hacer la correspondiente recuperación. Hay que tener en cuenta las características propias del usuario y cuál es la instalación en que funciona el sistema. Es decir, qué computadora, donde está instalada, etc. Incluye el área física (por ejemplo: ambiente aislado o transitado, acondicionamiento térmico, nivel de ruido, etc.).  
+Algunos de los aspectos a considerar se presentan a continuación. La lista no es taxativa y el orden de cada aspecto no es relevante, siendo cada aspecto de propósito limitado en forma individual. Un adecuado método de respaldo/recuperación debe tener en cuenta todos los aspectos en conjunto, como ser:  
+\\
+\\-	 Plan de Respaldo.
+\\-	Cuáles datos se deben incluir - Tipos de 
+\\-	respaldos.
+\\-	Cantidad de copias a realizar - Modalidad de 
+\\-	copia.
+\\-	Dónde guardarlas.
+\\-	Quienes los manejan.
+\\-	Verificación del respaldo.
+\\-	Registro.
+\\-	Cuándo hacerlo.
+\\-	El respaldo completo del disco.
+\\-	Soporte físico a utilizar para el respaldo 
+\\
+\\Plan de Respaldo  
+\\Los procedimientos de respaldo y recuperación desarrollada deben formar parte de un plan de respaldo y recuperación, el cual debe ser documentado y comunicado a todas las personas involucradas. Dado que, a lo largo del tiempo, varias características que se consideran para desarrollar este plan sufren cambios (software utilizado, soporte,
+etc.), el plan debe ser revisado, y de ser necesario modificado de manera periódica. 
+\\ 
+\\El plan debe contener todos los ítems detallados a continuación y cualquier otro que mejore la realización del trabajo o clarifique la tarea.
+\\ 
+\\¿Cuáles datos se deben incluir? 
+Cada aplicación maneja un conjunto muy variado de datos, algunos estáticos, otros dinámicos. Hay datos base, a partir de los cuales se generan datos resultantes (información). Al definir el respaldo, se establece si se copian todos los archivos o parte de ellos. Entra en consideración si la copia incluye los propios programas de la aplicación. La decisión final se tomará sobre la base de la criticidad de los datos y el valor de los mismos.  
+\\
+\\Medios de soporte a utilizar 
+\\ Los medios a utilizar dependerán del tipo de computadora (micro. Mainframe, etc.), cantidad de información a almacenar, tiempo disponible para realizar el respaldo, costos y obviamente de la tecnología disponible al momento. 
+\\ 
+\\Actualmente se cuenta con una variedad muy amplia de soportes disponibles y a costos muy bajos, sobre todo al nivel de micro computadoras. A nivel mainframe las posibilidades se acotan. Las características principales a considerar de cada opción será la capacidad de almacenamiento, medida en Mg o Gb, y la velocidad de transferencia de datos (cantidad de datos por segundo que es posible grabar), medida en Kb/s. Los soportes magnéticos son los más difundidos; también los hay ópticos.  
+\\
+\\Las opciones más comunes son (en orden descendente por capacidad de almacenamiento promedio):  
+\\
+\\-	Discos duros.
+\\-	Cintas (4mm, 8mm, QIC).
+\\-	Cartuchos (alta densidad, micro)
+\\-	C D R O M.
+\\-	Zip drive.
+\\-	Tarjetas PCM-CIA.
+\\-	Diskette  
+\\
+\\¿Cuándo realizarlo? 
+\\Para determinar cuándo se realiza el respaldo debemos conocer los tiempos incurridos en desarrollar la tarea y las ventanas de tiempo disponibles en producción (tiempo disponible para realizar tareas que no afecte a los procesos habituales de procesamiento de datos). Los tiempos incurridos en desarrollar la tarea varían dependiendo del soporte utilizado (a mayor velocidad de transferencia menor tiempo incurrido), el tipo de respaldo utilizado (el full back-up es el que lleva mayor cantidad de tiempo) y la cantidad de datos a respaldar (a mayor cantidad mayor tiempo de respaldo). 
+Generalmente, en las empresas, las ventanas de tiempo disponibles durante las semanas son chicas, por lo que se combinan los tipos de respaldo  dependiendo del día de la semana. Así, el fin de semana se realiza un respaldo global y durante la semana se realizan respaldos incrementales. Existen momentos en los cuales es necesario realizar respaldos extraordinarios, como ser nueva instalación de una aplicación, o migración de bases de datos o traslado del equipamiento. En estas circunstancias deben realizarse un respaldo global, para estar totalmente cubierto. 
+\\
+\\Periodicidad 
+\\Cada cuanto realizar los respaldos dependerá de la cantidad de operaciones realizadas y las ventanas de tiempo disponibles. Usualmente, y como recomendable, los mismos deben realizarse Diariamente Por ejemplo, día a día se hacen respaldos incrementales o diferenciales y una vez por semana se hacen respaldos completos parciales y una al mes respaldos completos totales. Siempre estas decisiones dependen del volumen de los datos, del soporte de almacenamiento disponible, de la velocidad del respaldo, de la importancia de los datos, etc. 
+\\
+\\c). Herramientas a utilizar 
+\\     Hay varias herramientas posibles para respaldo de datos. Algunas son muy simples y otras son muy sofisticadas. En algunas aplicaciones o DBMS se disponen de programas propios, guiados por menú, para llevar a cabo estas tareas. En otras, se deben utilizar los comandos del Sistema Operativo o programas utilitarios para respaldos. También hay combinación de ambas situaciones: desde el programa de aplicación se invocan los comandos del sistema operativo u otro programa. 
+\\ 
+\\     Se le dará prioridad a la herramienta “nativa” de cada aplicación o DBMS, pues están especialmente desarrolladas para respaldar de manera adecuada esos datos, pero la decisión podrá ser utilizar un software especial para respaldar, la decisión final la tomará personal experto. 
+\\
+\\     Dónde guardarlos - distancia y accesibilidad  
+\\
+\\Muy importante es establecer en qué lugar se deben guardar las copias. Debe ser bajo llave, con un juego cerca de la computadora y otro fuera del edificio. El juego que está cerca debe estar accesible y el otro debe ser de acceso restringido. Los respaldos pueden estar sobre 
+\\
 
 
 \end{enumerate} 
