@@ -1,0 +1,7 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}parte 01 \IeC {\textendash } Introduccion}{1}
+\contentsline {section}{\numberline {2}parte 02 \IeC {\textendash } Objetivos}{2}
+\contentsline {section}{\numberline {3}parte 03 \IeC {\textendash } Marco Te\IeC {\'o}rico}{3}
+\contentsline {section}{\numberline {4}parte 04 \IeC {\textendash } Desarrollo}{11}
+\contentsline {section}{\numberline {5}Parte 05 \IeC {\textendash } Referencias}{27}
+\contentsline {section}{\numberline {6}parte 06 \IeC {\textendash } Conclusion}{28}
