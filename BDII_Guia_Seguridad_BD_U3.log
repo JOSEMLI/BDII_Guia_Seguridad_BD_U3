@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  3 JUL 2018 21:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  3 JUL 2018 22:22
 entering extended mode
 **./BDII_Guia_Seguridad_BD_U3.tex
 (BDII_Guia_Seguridad_BD_U3.tex
@@ -690,90 +690,139 @@ LaTeX Info: Redefining \% on input line 1.
 \openout2 = `Secciones/Actividad04.aux'.
 
 
-(Secciones/Actividad04.tex) [4
+(Secciones/Actividad04.tex
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+ []
+
+<./Imagenes/recu_1.jpg, id=20, 770.88pt x 558.58687pt>
+File: ./Imagenes/recu_1.jpg Graphic file (type jpg)
+<use ./Imagenes/recu_1.jpg>
+Package pdftex.def Info: ./Imagenes/recu_1.jpg  used on input line 13.
+(pdftex.def)             Requested size: 426.79134pt x 309.25229pt.
+<./Imagenes/recu_2.jpg, id=21, 770.88pt x 558.58687pt>
+File: ./Imagenes/recu_2.jpg Graphic file (type jpg)
+<use ./Imagenes/recu_2.jpg>
+Package pdftex.def Info: ./Imagenes/recu_2.jpg  used on input line 18.
+(pdftex.def)             Requested size: 426.79134pt x 309.25229pt.
+[4
 
 
-]
+ <./Imagenes/recu_1.jpg>]
+<./Imagenes/recu_3.jpg, id=25, 770.88pt x 558.58687pt>
+File: ./Imagenes/recu_3.jpg Graphic file (type jpg)
+<use ./Imagenes/recu_3.jpg>
+Package pdftex.def Info: ./Imagenes/recu_3.jpg  used on input line 22.
+(pdftex.def)             Requested size: 426.79134pt x 309.25229pt.
+ [5 <./Imagenes/recu_2.jpg> <./Imagenes/recu_3.jpg>]
+<./Imagenes/recu_4.jpg, id=30, 770.88pt x 558.58687pt>
+File: ./Imagenes/recu_4.jpg Graphic file (type jpg)
+<use ./Imagenes/recu_4.jpg>
+Package pdftex.def Info: ./Imagenes/recu_4.jpg  used on input line 26.
+(pdftex.def)             Requested size: 426.79134pt x 309.25229pt.
+<./Imagenes/recu_5.jpg, id=31, 770.88pt x 558.58687pt>
+File: ./Imagenes/recu_5.jpg Graphic file (type jpg)
+<use ./Imagenes/recu_5.jpg>
+Package pdftex.def Info: ./Imagenes/recu_5.jpg  used on input line 30.
+(pdftex.def)             Requested size: 426.79134pt x 309.25229pt.
+[6 <./Imagenes/recu_4.jpg>]
+<./Imagenes/recu_6.jpg, id=35, 770.88pt x 558.58687pt>
+File: ./Imagenes/recu_6.jpg Graphic file (type jpg)
+<use ./Imagenes/recu_6.jpg>
+Package pdftex.def Info: ./Imagenes/recu_6.jpg  used on input line 34.
+(pdftex.def)             Requested size: 426.79134pt x 309.25229pt.
+ [7 <./Imagenes/recu_5.jpg> <./Imagenes/recu_6.jpg>]) [8]
 \openout2 = `Secciones/Actividad05.aux'.
 
  (Secciones/Actividad05.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--16
+Underfull \hbox (badness 10000) in paragraph at lines 5--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--16
+Underfull \hbox (badness 10000) in paragraph at lines 5--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--16
+Underfull \hbox (badness 10000) in paragraph at lines 5--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--16
+Underfull \hbox (badness 10000) in paragraph at lines 5--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--16
+Underfull \hbox (badness 10000) in paragraph at lines 5--17
 
  []
 
 
-Overfull \hbox (4.4955pt too wide) in paragraph at lines 5--16
+Overfull \hbox (4.4955pt too wide) in paragraph at lines 5--17
 \OT1/cmr/m/n/12 http://i.dell.com/sites/content/shared-content/data-sheets/en/D
 ocuments/Oracle-11g-Backup-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--16
+Underfull \hbox (badness 10000) in paragraph at lines 5--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--16
+Underfull \hbox (badness 10000) in paragraph at lines 5--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--16
+Underfull \hbox (badness 10000) in paragraph at lines 5--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--23
+Overfull \hbox (16.3268pt too wide) in paragraph at lines 5--17
+\OT1/cmr/m/n/12 https://drive.google.com/drive/folders/1tJ0yO71G5vN38pQObv1C5Za
+JMKRBpP[]z?usp=sharing 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--17
 
  []
 
 
-Overfull \hbox (6.26213pt too wide) in paragraph at lines 17--23
+Underfull \hbox (badness 10000) in paragraph at lines 18--24
+
+ []
+
+
+Overfull \hbox (6.26213pt too wide) in paragraph at lines 18--24
 \OT1/cmr/m/n/12 http://searchdatacenter.techtarget.com/es/cronica/Copia-de-segu
 ridad-completa-incremental-o-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--23
+Underfull \hbox (badness 10000) in paragraph at lines 18--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--23
+Underfull \hbox (badness 10000) in paragraph at lines 18--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--23
+Underfull \hbox (badness 10000) in paragraph at lines 18--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--23
+Underfull \hbox (badness 10000) in paragraph at lines 18--24
 
  []
 
-) [5
+) [9
 
 
 ]
@@ -794,7 +843,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--8
 
  []
 
-) [6
+) [10
 
 
 ] (BDII_Guia_Seguridad_BD_U3.aux
@@ -805,20 +854,20 @@ LaTeX Info: Redefining \% on input line 6.
 (Secciones/Actividad04.aux) (Secciones/Actividad05.aux)
 (Secciones/Actividad06.aux)) ) 
 Here is how much of TeX's memory you used:
- 3932 strings out of 493305
- 55353 string characters out of 3129802
- 130330 words of memory out of 3000000
- 7365 multiletter control sequences out of 15000+200000
+ 3963 strings out of 493305
+ 56039 string characters out of 3129802
+ 130332 words of memory out of 3000000
+ 7390 multiletter control sequences out of 15000+200000
  8261 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,5n,30p,287b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,5n,30p,381b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/akari/AppData/Local/Programs/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/akari/AppData/Local/Progra
 ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/akari/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on BDII_Guia_Seguridad_BD_U3.pdf (8 pages, 59450 bytes).
+Output written on BDII_Guia_Seguridad_BD_U3.pdf (12 pages, 1015871 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
+ 60 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
