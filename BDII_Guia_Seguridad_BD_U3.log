@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.4)  4 JUL 2018 02:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.4)  4 JUL 2018 02:31
 entering extended mode
 **./BDII_Guia_Seguridad_BD_U3.tex
 (BDII_Guia_Seguridad_BD_U3.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -21,19 +21,19 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
+"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+ ("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -274,7 +274,7 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -314,8 +314,7 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 )
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -339,28 +338,34 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
+"
 Package: babel 2018/02/14 3.18 The Babel package
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.de
+f"
 File: switch.def 2018/02/14 3.18 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\babel-spanish\spanish.ldf"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-spanish\spa
+nish.ldf"
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def
+"
 File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\txtbabel.def")
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.
+def")
 \bbl@dirlevel=\count88
 )
 \es@quottoks=\toks16
@@ -370,41 +375,51 @@ Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx
+.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.s
+ty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics
+.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\grap
+hics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdft
+ex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry
+.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.
+sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex
+.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex
+.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count90
@@ -420,8 +435,9 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen113
 \Gm@dimlist=\toks18
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry
+.cfg"))
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count93
 \float@exts=\toks19
@@ -429,24 +445,30 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks20
 \@floatcapt=\box27
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.s
+ty"
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.s
+ty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.st
+y"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
 \ex@=\dimen114
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.st
+y"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen115
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.st
+y"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count94
@@ -487,16 +509,20 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\stackrel.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\stackrel
+.sty"
 Package: stackrel 2016/05/16 v1.3 Adding subscript option to stackrel (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcm
+ds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwar
+err.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluat
+ex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -505,11 +531,13 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftex
+cmds.sty"
 Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmd
+s.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -517,18 +545,19 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multirow
+.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip46
 \multirow@cntb=\count106
 \multirow@dima=\skip47
 \bigstrutjot=\dimen123
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\enumerate.s
+ty"
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks26
-)
-(BDII_Guia_Seguridad_BD_U3.aux
+) (BDII_Guia_Seguridad_BD_U3.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
  (Secciones/Actividad01.aux)
@@ -552,7 +581,8 @@ LaTeX Font Info:    ... okay on input line 18.
 LaTeX Info: Redefining \. on input line 18.
 LaTeX Info: Redefining \% on input line 18.
 
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.m
+kii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count107
 \scratchdimen=\dimen124
@@ -565,19 +595,25 @@ LaTeX Info: Redefining \% on input line 18.
 \MPnumerator=\count111
 \makeMPintoPDFobject=\count112
 \everyMPtoPDFconversion=\toks28
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+)
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf
+-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.s
+ty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefi
+nekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoption
+s.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+("C:\Users\Ademuz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetk
+eys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 ))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -628,8 +664,8 @@ Package pdftex.def Info: ./Imagenes/logo.jpg  used on input line 38.
 (pdftex.def)             Requested size: 227.62204pt x 151.47853pt.
 [1
 
-{C:/Users/Luis/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Imagenes/l
-ogo.jpg>] (BDII_Guia_Seguridad_BD_U3.toc
+{C:/Users/Ademuz/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Imagenes
+/logo.jpg>] (BDII_Guia_Seguridad_BD_U3.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -962,99 +998,154 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--205
 \openout2 = `Secciones/Actividad04.aux'.
 
  (Secciones/Actividad04.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--32
+Underfull \hbox (badness 10000) in paragraph at lines 4--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--32
+Underfull \hbox (badness 10000) in paragraph at lines 4--33
 
  []
 
 
-Overfull \hbox (5.02187pt too wide) in paragraph at lines 4--32
+Overfull \hbox (5.02187pt too wide) in paragraph at lines 4--33
 \OT1/cmr/m/n/12 http://www.oracle.com/technetwork/database/enterprise-edition/d
 ownloads/112010-win64soft-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--32
+Underfull \hbox (badness 10000) in paragraph at lines 4--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--32
+Underfull \hbox (badness 10000) in paragraph at lines 4--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--32
+Underfull \hbox (badness 10000) in paragraph at lines 4--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--32
+Underfull \hbox (badness 10000) in paragraph at lines 4--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--32
+Underfull \hbox (badness 10000) in paragraph at lines 4--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--32
+Underfull \hbox (badness 10000) in paragraph at lines 4--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--32
+Underfull \hbox (badness 10000) in paragraph at lines 4--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--38
+Underfull \hbox (badness 10000) in paragraph at lines 4--33
 
  []
 
-<./Imagenes/recu_1.jpg, id=42, 770.88pt x 558.58687pt>
-File: ./Imagenes/recu_1.jpg Graphic file (type jpg)
-<use ./Imagenes/recu_1.jpg>
-Package pdftex.def Info: ./Imagenes/recu_1.jpg  used on input line 39.
-(pdftex.def)             Requested size: 426.79134pt x 309.25229pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
+
+ []
+
 [11
 
 
 ]
-<./Imagenes/recu_2.jpg, id=47, 770.88pt x 558.58687pt>
+<./Imagenes/img-4-2-1.jpg, id=46, 634.62094pt x 414.79968pt>
+File: ./Imagenes/img-4-2-1.jpg Graphic file (type jpg)
+<use ./Imagenes/img-4-2-1.jpg>
+Package pdftex.def Info: ./Imagenes/img-4-2-1.jpg  used on input line 42.
+(pdftex.def)             Requested size: 426.79134pt x 278.96501pt.
+<./Imagenes/img-4-2-2.jpg, id=47, 770.88pt x 558.58687pt>
+File: ./Imagenes/img-4-2-2.jpg Graphic file (type jpg)
+<use ./Imagenes/img-4-2-2.jpg>
+Package pdftex.def Info: ./Imagenes/img-4-2-2.jpg  used on input line 46.
+(pdftex.def)             Requested size: 426.79134pt x 309.25229pt.
+ [12 <./Imagenes/img-4-2-1.jpg> <./Imagenes/img-4-2-2.jpg>]
+<./Imagenes/img-4-2-3.jpg, id=51, 770.88pt x 558.58687pt>
+File: ./Imagenes/img-4-2-3.jpg Graphic file (type jpg)
+<use ./Imagenes/img-4-2-3.jpg>
+Package pdftex.def Info: ./Imagenes/img-4-2-3.jpg  used on input line 51.
+(pdftex.def)             Requested size: 426.79134pt x 309.25229pt.
+<./Imagenes/img-4-2-4.jpg, id=52, 770.88pt x 558.58687pt>
+File: ./Imagenes/img-4-2-4.jpg Graphic file (type jpg)
+<use ./Imagenes/img-4-2-4.jpg>
+Package pdftex.def Info: ./Imagenes/img-4-2-4.jpg  used on input line 56.
+(pdftex.def)             Requested size: 426.79134pt x 309.25229pt.
+ [13 <./Imagenes/img-4-2-3.jpg>]
+<./Imagenes/img-4-2-5.jpg, id=56, 770.88pt x 558.58687pt>
+File: ./Imagenes/img-4-2-5.jpg Graphic file (type jpg)
+<use ./Imagenes/img-4-2-5.jpg>
+Package pdftex.def Info: ./Imagenes/img-4-2-5.jpg  used on input line 60.
+(pdftex.def)             Requested size: 426.79134pt x 309.25229pt.
+ [14 <./Imagenes/img-4-2-4.jpg>]
+<./Imagenes/img-4-2-6.jpg, id=60, 770.88pt x 558.58687pt>
+File: ./Imagenes/img-4-2-6.jpg Graphic file (type jpg)
+<use ./Imagenes/img-4-2-6.jpg>
+Package pdftex.def Info: ./Imagenes/img-4-2-6.jpg  used on input line 64.
+(pdftex.def)             Requested size: 426.79134pt x 309.25229pt.
+ [15 <./Imagenes/img-4-2-5.jpg> <./Imagenes/img-4-2-6.jpg>]
+<./Imagenes/img-4-2-7.jpg, id=64, 770.88pt x 558.58687pt>
+File: ./Imagenes/img-4-2-7.jpg Graphic file (type jpg)
+<use ./Imagenes/img-4-2-7.jpg>
+Package pdftex.def Info: ./Imagenes/img-4-2-7.jpg  used on input line 68.
+(pdftex.def)             Requested size: 426.79134pt x 309.25229pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
+
+ []
+
+<./Imagenes/recu_1.jpg, id=65, 770.88pt x 558.58687pt>
+File: ./Imagenes/recu_1.jpg Graphic file (type jpg)
+<use ./Imagenes/recu_1.jpg>
+Package pdftex.def Info: ./Imagenes/recu_1.jpg  used on input line 76.
+(pdftex.def)             Requested size: 426.79134pt x 309.25229pt.
+[16 <./Imagenes/img-4-2-7.jpg>]
+<./Imagenes/recu_2.jpg, id=69, 770.88pt x 558.58687pt>
 File: ./Imagenes/recu_2.jpg Graphic file (type jpg)
 <use ./Imagenes/recu_2.jpg>
-Package pdftex.def Info: ./Imagenes/recu_2.jpg  used on input line 44.
+Package pdftex.def Info: ./Imagenes/recu_2.jpg  used on input line 81.
 (pdftex.def)             Requested size: 426.79134pt x 309.25229pt.
- [12 <./Imagenes/recu_1.jpg>]
-<./Imagenes/recu_3.jpg, id=51, 770.88pt x 558.58687pt>
+ [17 <./Imagenes/recu_1.jpg>]
+<./Imagenes/recu_3.jpg, id=74, 770.88pt x 558.58687pt>
 File: ./Imagenes/recu_3.jpg Graphic file (type jpg)
 <use ./Imagenes/recu_3.jpg>
-Package pdftex.def Info: ./Imagenes/recu_3.jpg  used on input line 48.
+Package pdftex.def Info: ./Imagenes/recu_3.jpg  used on input line 85.
 (pdftex.def)             Requested size: 426.79134pt x 309.25229pt.
- [13 <./Imagenes/recu_2.jpg> <./Imagenes/recu_3.jpg>]
-<./Imagenes/recu_4.jpg, id=55, 770.88pt x 558.58687pt>
+ [18 <./Imagenes/recu_2.jpg> <./Imagenes/recu_3.jpg>]
+<./Imagenes/recu_4.jpg, id=78, 770.88pt x 558.58687pt>
 File: ./Imagenes/recu_4.jpg Graphic file (type jpg)
 <use ./Imagenes/recu_4.jpg>
-Package pdftex.def Info: ./Imagenes/recu_4.jpg  used on input line 52.
+Package pdftex.def Info: ./Imagenes/recu_4.jpg  used on input line 89.
 (pdftex.def)             Requested size: 426.79134pt x 309.25229pt.
-<./Imagenes/recu_5.jpg, id=56, 770.88pt x 558.58687pt>
+<./Imagenes/recu_5.jpg, id=79, 770.88pt x 558.58687pt>
 File: ./Imagenes/recu_5.jpg Graphic file (type jpg)
 <use ./Imagenes/recu_5.jpg>
-Package pdftex.def Info: ./Imagenes/recu_5.jpg  used on input line 56.
+Package pdftex.def Info: ./Imagenes/recu_5.jpg  used on input line 93.
 (pdftex.def)             Requested size: 426.79134pt x 309.25229pt.
- [14 <./Imagenes/recu_4.jpg>]
-<./Imagenes/recu_6.jpg, id=60, 770.88pt x 558.58687pt>
+ [19 <./Imagenes/recu_4.jpg>]
+<./Imagenes/recu_6.jpg, id=83, 770.88pt x 558.58687pt>
 File: ./Imagenes/recu_6.jpg Graphic file (type jpg)
 <use ./Imagenes/recu_6.jpg>
-Package pdftex.def Info: ./Imagenes/recu_6.jpg  used on input line 60.
+Package pdftex.def Info: ./Imagenes/recu_6.jpg  used on input line 97.
 (pdftex.def)             Requested size: 426.79134pt x 309.25229pt.
- [15 <./Imagenes/recu_5.jpg> <./Imagenes/recu_6.jpg>]) [16]
+ [20 <./Imagenes/recu_5.jpg> <./Imagenes/recu_6.jpg>]) [21]
 \openout2 = `Secciones/Actividad05.aux'.
 
  (Secciones/Actividad05.tex
@@ -1140,7 +1231,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--23
 
  []
 
-) [17
+) [22
 
 
 ]
@@ -1161,7 +1252,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--8
 
  []
 
-) [18
+) [23
 
 
 ] (BDII_Guia_Seguridad_BD_U3.aux
@@ -1172,20 +1263,20 @@ LaTeX Info: Redefining \% on input line 6.
 (Secciones/Actividad04.aux) (Secciones/Actividad05.aux)
 (Secciones/Actividad06.aux)) ) 
 Here is how much of TeX's memory you used:
- 3964 strings out of 493305
- 54237 string characters out of 3138878
+ 3999 strings out of 493305
+ 57165 string characters out of 3129368
  173558 words of memory out of 3000000
- 7391 multiletter control sequences out of 15000+200000
+ 7419 multiletter control sequences out of 15000+200000
  8261 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,5n,30p,683b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.p
-fb>
-Output written on BDII_Guia_Seguridad_BD_U3.pdf (20 pages, 1041783 bytes).
+<C:/Users/Ademuz/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Ademuz/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Ademuz/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+Output written on BDII_Guia_Seguridad_BD_U3.pdf (25 pages, 2082476 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
+ 109 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

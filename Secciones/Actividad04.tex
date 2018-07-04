@@ -29,9 +29,46 @@
 \\
 \textbf{Backups de la BD en Caliente}            
 \\          El backup en caliente se realiza mientras la BD está abierta y funcionando en modo ARCHIVELOG. Habrá que tener cuidado de realizarlo cuando la carga de la BD sea pequeña. Este tipo de backup consiste en copiar todos los ficheros correspondientes a un tablespace determinado, los ficheros redo log archivados y los ficheros de control.
+\\
+
+	\textbf{Backups Lógicos con Export/Import}  
+	\\Estas utilidades permiten al DBA hacer copias de determinados objetos de la BD, así como restaurarlos o moverlos de una BD a otra. Estas herramientas utilizan comandos del SQL para obtener el contenido de los objetos.\\
+	\\
+	\\NOTA: Una vez que se ha planeado una estrategia de backup y se ha probado, conviene automatizarla para facilitar así su cumplimiento.
 
 	\item BACKUPS  DESDE  ENTERPRISE  MANAGER:
 	
+\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/img-4-2-1}  
+	\end{center}
+	Una  vez  logueados  en  EM,  iremos  al  apartado  “Disponibilidad”  y  apuntaremos  a “Planificar  Copia de Seguridad”.
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/img-4-2-2}  
+	\end{center}
+	Figura 3. Como vemos nos da 2 opciones a elegir. En este documento analizaremos la opción personalizada con toda la base de datos.
+  	\\ Deberemos conectarnos con los credenciales de host para realizar esta tarea.
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/img-4-2-3}  
+	\end{center}
+	Figura 4. Como  es  la  primera  copia  que  realizamos  deberíamos  elegir  “Copia  de  Seguridad Completa”
+	\\Para el modo de copia elegiremos si deseamos hacer la copia con la base de datos abierta o cerrada. En las opciones avanzadas tan sólo añadiremos que realice copia también de los archive logs.
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/img-4-2-4}  
+	\end{center}
+	Figura 5. En este paso elegiremos el destino de la copia. Como no dispongo de dispositivo de cintas pasó a continuar explicando la opción “Disco”. (La ubicación que ha tomado para la opción “Disco” está asignada desde RMAN).
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/img-4-2-5}  
+	\end{center}
+	Figura 6. Introducimos nombre si lo deseamos y la descripción, y lo planificamos para que se realice una vez y de forma inmediata.
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/img-4-2-6}  
+	\end{center}
+	Figura 7. Revisamos que todo esté correcto y ejecutamos el trabajo. Si todo ha ido bien debería aparecer esto:
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/img-4-2-7}  
+	\end{center}
+
+
 
 	\item RECUPERACIÓN  DESDE  ENTERPRISE  MANAGER
 	\\\\Para realizar una recuperación desde EM, iremos a “Disponibilidad” y seleccionamos Realizar Recuperación
