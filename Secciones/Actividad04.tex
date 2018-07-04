@@ -36,7 +36,45 @@ Para  el  ejemplo  hemos  borrado  el  datafile  USERS01.DBF(OFFLINE)  después 
 	Podemos revisar los parámetros RMAN para ver y comprender las acciones realizadas por debajo de EM. Una vez toda revisado procedemos a ejecutar.
 	\\Esto lo que hará será tomar del backup el fichero y llevarlo al destino aplicando los cambios  hasta  el  momento  de  la  pérdida  permitiendo  así  el  inicio  normal  de  la  BD  con tablespace online.
 	\\Una vez finalizado podemos pinchar en Abrir Base de Datos y esta se reiniciará y se abría automáticamente después de ver insertado nuestros credenciales.
-	
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/eje1}
+	\end{center}	
+	Figura 5. En este paso elegiremos el destino de la copia. Como no dispongo de dispositivo de cintas paso a continuar explicando la opción Disco. La ubicacion que ha tomado para la opción  Disco  esta asignada desde RMAN
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/eje2}
+	\end{center}
+	Figura 6. Introducimos nombre si lo deseamos y la descripcion, y lo planificamos para que se realice una vez y de forma inmediata
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/eje3}
+	\end{center}
+	Figura 7. Revisamos que todo este correcto y ejecutamos el trabajo. Si todo ha ido bien deberia aparecer esto:
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/eje4}
+	\end{center}
+	\\Recuperacion desde enterprise manager
+	Para realizar una recuperación desde EM, iremos a Disponibilidad y seleccionamos
+Realizar Recuperacion.
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/eje5}
+	\end{center}
+Iniciamos oracle en modo mount y arrancamos EM
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/eje6}
+	\end{center}
+	Pinchamos en Realizar Recuperacion. Introducimos los credenciales de host. Continuar Nos conectamos como sysdba.
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/eje7}
+	\end{center}
+	En el ámbito de recuperacion elegimos Archivos de Datos y en el tipo de operación restaurar hasta hora actual. Pinchamos en recuperar.
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/eje8}
+	\end{center}
+
+
+
+
+
+
 
 
 \end{enumerate} 
